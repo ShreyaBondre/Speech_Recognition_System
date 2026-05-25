@@ -1,3 +1,4 @@
+
 # Speech_Recognition_System
 
 *COMPANY*: CODTECH IT SOLUTIONS
@@ -22,3 +23,6 @@ The downloaded audio data is stored in memory using BytesIO, which avoids saving
 After conversion, the audio is loaded into the Speech Recognition engine using sr.AudioFile(). The recognizer adjusts for background noise using the adjust_for_ambient_noise() method and records the complete audio using record().
 
 The recorded audio is then sent to the Google Speech Recognition API using the recognize_google() method. The API processes the speech and converts it into text format. The final transcribed text is returned and displayed as output.
+
+*OUTPUT*
+<img width="742" height="227" alt="Image" src="https://github.com/user-attachments/assets/6f85fb16-d391-429e-8c95-b2e124baed51" />
